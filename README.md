@@ -2,11 +2,10 @@
 This repo is used to demonstrate how to make batch payment(100k payments) in a reasonable amount of time 
 
 # Introduction
-This was a interview question i got recently at a fintech company which i failed, I was asked how could I optimize a code that made a batch payment from a source account
-and to about 100k different destination accounts, this code made the payment synchronously by looping through every account
+This was a interview question i got recently at a fintech company which i failed, I was asked how could I optimize a code that made a batch payment from a source account and to about 100k different destination accounts, the current code made the payment synchronously by looping through every account
 
 # Solution
-The solution I came up with is making this payments happen asynchronously in batches
+The solution I came up with is making this payments happen asynchronously and in batches
 Below is the code that does all the work
 <pre>
   <code>
@@ -32,7 +31,8 @@ Below is the code that does all the work
             {
                 //Start a batch of the payment simultaneously. 
                 var tasks = totalAccounts.Skip(position).Take(400).Select(a => CallBankAPIAndMakePayment(firstAccount, a, random.Next(1, 9))).ToList();
-                //wait for the all the above payment to complete before moving to the next batch
+                
+                //wait for all the above payment to complete before moving to the next batch
                 await Task.WhenAll(tasks);
                 
                 //Update the number of item to be skipped
