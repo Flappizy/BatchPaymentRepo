@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "g3mZR5NiEQ2bqTxGgTuqi2qgsFy2Us8STk4kmSiy2us=",
+  "Source": "Bank",
+  "BasePath": "_content/Bank",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Hp\\source\\repos\\BatchPayment\\BatchPayment\\BatchPayment.csproj",
+      "Version": 2,
+      "Source": "BatchPayment",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

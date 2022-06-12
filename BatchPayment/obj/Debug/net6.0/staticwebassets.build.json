@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "lt6p31QQ9id1Vqg+mnhOsgwlWU2K+//2ZjwoqF/npxc=",
+  "Source": "BatchPayment",
+  "BasePath": "_content/BatchPayment",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

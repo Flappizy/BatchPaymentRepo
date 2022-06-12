@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "38a912b0-6745-4f57-bac7-36192b1a4089": {
+      "ProjectGuid": "38a912b0-6745-4f57-bac7-36192b1a4089",
+      "DisplayName": "Bank",
+      "ColorIndex": 0
+    },
+    "a6e977a9-53f5-4b11-a2b9-6c7780e130f7": {
+      "ProjectGuid": "a6e977a9-53f5-4b11-a2b9-6c7780e130f7",
+      "DisplayName": "Entities",
+      "ColorIndex": 1
+    },
+    "2433b2d3-4eae-4bd7-9bd8-f56792979efa": {
+      "ProjectGuid": "2433b2d3-4eae-4bd7-9bd8-f56792979efa",
+      "DisplayName": "BatchPayment",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}
