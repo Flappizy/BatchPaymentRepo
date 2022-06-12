@@ -2,7 +2,7 @@
 This repo is used to demonstrate how to make batch payment(100k payments) in a reasonable amount of time 
 
 # Introduction
-This was an interview question i got recently at a fintech company which i failed, I was asked how could I optimize a code that made a batch payment from a source account and to about 100k different destination accounts, the current code made the payment synchronously by looping through every account
+This was an interview question i got recently at a fintech company which i failed, I was asked how I could optimize a code that made a batch payment from a source account and to about 100k different destination accounts, the current code made the payment synchronously by looping through every account
 
 # Solution
 The solution I came up with is making this payments happen asynchronously and in batches
