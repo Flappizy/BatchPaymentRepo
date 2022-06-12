@@ -29,10 +29,10 @@ Below is the code that does all the work
             
             while (position < totalCountOfAccounts)
             {
-                //Start a batch of the payment simultaneously. 
+                //Start a batch of the payments simultaneously. 
                 var tasks = totalAccounts.Skip(position).Take(400).Select(a => CallBankAPIAndMakePayment(firstAccount, a, random.Next(1, 9))).ToList();
                 
-                //wait for all the above payment to complete before moving to the next batch
+                //wait for all the above payments to complete before moving to the next batch
                 await Task.WhenAll(tasks);
                 
                 //Update the number of item to be skipped
